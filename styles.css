@@ -1,0 +1,60 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url(./images/pattern-curve.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  font-family: 'Inter', sans-serif;
+}
+
+footer {
+  position: fixed;
+  top: 97%;
+  width: 100%;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/pattern-bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 1em;
+}
+
+img {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin-top: 2em;
+}
+
+.quote {
+  margin-top: 3em;
+  padding-top: 1em;
+  background-image: url(./images/pattern-quotes.svg);
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.quote p {
+  width: 50%;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#john {
+  display: none;
+}
