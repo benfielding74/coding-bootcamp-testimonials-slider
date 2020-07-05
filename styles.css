@@ -219,3 +219,36 @@ blockquote {
     left: 860px;
   }
 }
+
+@media only screen and (min-width: 1460px) {
+  body {
+    background-image: url(./images/pattern-bg.svg),
+      url(./images/pattern-curve.svg), url(./images/pattern-quotes.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 90% 30%, 0% 100%, 15% 34%;
+    background-size: auto;
+  }
+
+  .quote {
+    padding: 4rem;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 10;
+    z-index: 3;
+    background-image: none;
+  }
+  img {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 11;
+    z-index: 1;
+    height: 550px;
+    width: auto;
+  }
+  .navigate {
+    top: 610px;
+    left: 880px;
+  }
+}
