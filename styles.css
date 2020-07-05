@@ -220,7 +220,7 @@ blockquote {
   }
 }
 
-@media only screen and (min-width: 1460px) {
+@media only screen and (min-width: 1440px) {
   body {
     background-image: url(./images/pattern-bg.svg),
       url(./images/pattern-curve.svg), url(./images/pattern-quotes.svg);
